@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "13.0.0 20221002 (Stable)")
+(!version  "13.0.0 20221004 (Stable)")
 (!srcdir  "../../gcc/gcc")
 (!languages 10 ada c cp d fortran go jit lto objc objcp)
 (!fileslist 230 0
@@ -1672,11 +1672,11 @@
                                    (!type struct 82 
                                     (!type already_seen 81)
                                     gc_pointed_to "cp_binding_level"
-                                    (!srcfileloc  "cp/name-lookup.h" 316)
+                                    (!srcfileloc  "cp/name-lookup.h" 317)
                                     (!fields 17 
                                      (!pair  "names"
                                       (!type already_seen 23)
-                                      (!srcfileloc  "cp/name-lookup.h" 250)
+                                      (!srcfileloc  "cp/name-lookup.h" 251)
                                       nil )
                                      (!pair  "using_directives"
                                       (!type pointer 83 nil  gc_used
@@ -1696,22 +1696,22 @@
                                         )
                                        )
                                       )
-                                      (!srcfileloc  "cp/name-lookup.h" 253)
+                                      (!srcfileloc  "cp/name-lookup.h" 254)
                                       nil )
                                      (!pair  "class_shadowed"
                                       (!type pointer 85 nil  gc_used
                                        (!type user_struct 86 
                                         (!type already_seen 85)
                                         gc_pointed_to "vec<cp_class_binding,va_gc>"
-                                        (!srcfileloc  "cp/name-lookup.h" 257)
+                                        (!srcfileloc  "cp/name-lookup.h" 258)
                                         (!fields 2 
                                          (!pair  "va_gc"
                                           (!type already_seen 78)
-                                          (!srcfileloc  "cp/name-lookup.h" 257)
+                                          (!srcfileloc  "cp/name-lookup.h" 258)
                                           nil )
                                          (!pair  "cp_class_binding"
                                           (!type struct 87 nil  gc_used "cp_class_binding"
-                                           (!srcfileloc  "cp/name-lookup.h" 257)
+                                           (!srcfileloc  "cp/name-lookup.h" 258)
                                            (!fields 2 
                                             (!pair  "base"
                                              (!type pointer 88 nil  gc_used
@@ -1751,76 +1751,76 @@
                                                )
                                                nil 516 nil nil )
                                              )
-                                             (!srcfileloc  "cp/name-lookup.h" 219)
+                                             (!srcfileloc  "cp/name-lookup.h" 220)
                                              nil )
                                             (!pair  "identifier"
                                              (!type already_seen 23)
-                                             (!srcfileloc  "cp/name-lookup.h" 221)
+                                             (!srcfileloc  "cp/name-lookup.h" 222)
                                              nil )
                                            )
                                            nil 516 nil nil )
-                                          (!srcfileloc  "cp/name-lookup.h" 257)
+                                          (!srcfileloc  "cp/name-lookup.h" 258)
                                           nil )
                                         )
                                        )
                                       )
-                                      (!srcfileloc  "cp/name-lookup.h" 257)
+                                      (!srcfileloc  "cp/name-lookup.h" 258)
                                       nil )
                                      (!pair  "type_shadowed"
                                       (!type already_seen 23)
-                                      (!srcfileloc  "cp/name-lookup.h" 264)
+                                      (!srcfileloc  "cp/name-lookup.h" 265)
                                       nil )
                                      (!pair  "blocks"
                                       (!type already_seen 23)
-                                      (!srcfileloc  "cp/name-lookup.h" 269)
+                                      (!srcfileloc  "cp/name-lookup.h" 270)
                                       nil )
                                      (!pair  "this_entity"
                                       (!type already_seen 23)
-                                      (!srcfileloc  "cp/name-lookup.h" 273)
+                                      (!srcfileloc  "cp/name-lookup.h" 274)
                                       nil )
                                      (!pair  "level_chain"
                                       (!type already_seen 81)
-                                      (!srcfileloc  "cp/name-lookup.h" 276)
+                                      (!srcfileloc  "cp/name-lookup.h" 277)
                                       nil )
                                      (!pair  "statement_list"
                                       (!type already_seen 23)
-                                      (!srcfileloc  "cp/name-lookup.h" 280)
+                                      (!srcfileloc  "cp/name-lookup.h" 281)
                                       nil )
                                      (!pair  "binding_depth"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 283)
+                                      (!srcfileloc  "cp/name-lookup.h" 284)
                                       nil )
                                      (!pair  "kind"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 288)
+                                      (!srcfileloc  "cp/name-lookup.h" 289)
                                       nil )
                                      (!pair  "explicit_spec_p"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 292)
+                                      (!srcfileloc  "cp/name-lookup.h" 293)
                                       nil )
                                      (!pair  "keep"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 295)
+                                      (!srcfileloc  "cp/name-lookup.h" 296)
                                       nil )
                                      (!pair  "more_cleanups_ok"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 299)
+                                      (!srcfileloc  "cp/name-lookup.h" 300)
                                       nil )
                                      (!pair  "have_cleanups"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 300)
+                                      (!srcfileloc  "cp/name-lookup.h" 301)
                                       nil )
                                      (!pair  "defining_class_p"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 307)
+                                      (!srcfileloc  "cp/name-lookup.h" 308)
                                       nil )
                                      (!pair  "immediate_fn_ctx_p"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 310)
+                                      (!srcfileloc  "cp/name-lookup.h" 311)
                                       nil )
                                      (!pair  "requires_expression"
                                       (!type already_seen 2)
-                                      (!srcfileloc  "cp/name-lookup.h" 313)
+                                      (!srcfileloc  "cp/name-lookup.h" 314)
                                       nil )
                                     )
                                     nil 516 nil nil )
@@ -27822,8 +27822,8 @@
    (!type already_seen 1995)
   )
   gc_pointed_to "named_label_entry"
-  (!srcfileloc  "cp/decl.cc" 226)
-  (!fields 13 
+  (!srcfileloc  "cp/decl.cc" 227)
+  (!fields 14 
    (!pair  "name"
     (!type already_seen 23)
     (!srcfileloc  "cp/decl.cc" 194)
@@ -27906,6 +27906,10 @@
    (!pair  "in_consteval_if"
     (!type already_seen 2)
     (!srcfileloc  "cp/decl.cc" 225)
+    nil )
+   (!pair  "in_stmt_expr"
+    (!type already_seen 2)
+    (!srcfileloc  "cp/decl.cc" 226)
     nil )
   )
   (!options 
@@ -28344,19 +28348,19 @@
   (!fields 4 
    (!pair  "decl"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8394)
+    (!srcfileloc  "cp/cp-tree.h" 8395)
     nil )
    (!pair  "body"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8395)
+    (!srcfileloc  "cp/cp-tree.h" 8396)
     nil )
    (!pair  "parms"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8396)
+    (!srcfileloc  "cp/cp-tree.h" 8397)
     nil )
    (!pair  "result"
     (!type already_seen 23)
-    (!srcfileloc  "cp/cp-tree.h" 8397)
+    (!srcfileloc  "cp/cp-tree.h" 8398)
     nil )
   )
   (!options 
@@ -29199,15 +29203,15 @@
  (!type already_seen 1998)
  
  (!type struct 2117 nil  gc_used "incomplete_var"
-  (!srcfileloc  "cp/decl.cc" 254)
+  (!srcfileloc  "cp/decl.cc" 255)
   (!fields 2 
    (!pair  "decl"
     (!type already_seen 23)
-    (!srcfileloc  "cp/decl.cc" 249)
+    (!srcfileloc  "cp/decl.cc" 250)
     nil )
    (!pair  "incomplete_type"
     (!type already_seen 23)
-    (!srcfileloc  "cp/decl.cc" 250)
+    (!srcfileloc  "cp/decl.cc" 251)
     nil )
   )
   nil 516 nil nil )
@@ -29217,15 +29221,15 @@
    (!type already_seen 2118)
   )
   gc_pointed_to "vec<incomplete_var,va_gc>"
-  (!srcfileloc  "cp/decl.cc" 254)
+  (!srcfileloc  "cp/decl.cc" 255)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 78)
-    (!srcfileloc  "cp/decl.cc" 254)
+    (!srcfileloc  "cp/decl.cc" 255)
     nil )
    (!pair  "incomplete_var"
     (!type already_seen 2117)
-    (!srcfileloc  "cp/decl.cc" 254)
+    (!srcfileloc  "cp/decl.cc" 255)
     nil )
   )
  )
@@ -29239,7 +29243,7 @@
   nil 0 nil nil )
  
  (!type struct 2122 nil  gc_used "typename_hasher"
-  (!srcfileloc  "cp/decl.cc" 4048)
+  (!srcfileloc  "cp/decl.cc" 4061)
   (!fields 0 )
   nil 516 nil nil )
  
@@ -29248,11 +29252,11 @@
    (!type already_seen 2123)
   )
   gc_pointed_to "hash_table<typename_hasher>"
-  (!srcfileloc  "cp/decl.cc" 4048)
+  (!srcfileloc  "cp/decl.cc" 4061)
   (!fields 1 
    (!pair  "typename_hasher"
     (!type already_seen 2122)
-    (!srcfileloc  "cp/decl.cc" 4048)
+    (!srcfileloc  "cp/decl.cc" 4061)
     nil )
   )
  )
@@ -31511,19 +31515,19 @@
   nil )
  (!pair  "typename_hasher"
   (!type already_seen 2122)
-  (!srcfileloc  "cp/decl.cc" 4048)
+  (!srcfileloc  "cp/decl.cc" 4061)
   nil )
  (!pair  "hash_table<typename_hasher>"
   (!type already_seen 2123)
-  (!srcfileloc  "cp/decl.cc" 4048)
+  (!srcfileloc  "cp/decl.cc" 4061)
   nil )
  (!pair  "incomplete_var"
   (!type already_seen 2117)
-  (!srcfileloc  "cp/decl.cc" 254)
+  (!srcfileloc  "cp/decl.cc" 255)
   nil )
  (!pair  "vec<incomplete_var,va_gc>"
   (!type already_seen 2118)
-  (!srcfileloc  "cp/decl.cc" 254)
+  (!srcfileloc  "cp/decl.cc" 255)
   nil )
  (!pair  "named_label_use_entry"
   (!type already_seen 1998)
@@ -31751,11 +31755,11 @@
   nil )
  (!pair  "cp_class_binding"
   (!type already_seen 87)
-  (!srcfileloc  "cp/name-lookup.h" 257)
+  (!srcfileloc  "cp/name-lookup.h" 258)
   nil )
  (!pair  "vec<cp_class_binding,va_gc>"
   (!type already_seen 86)
-  (!srcfileloc  "cp/name-lookup.h" 257)
+  (!srcfileloc  "cp/name-lookup.h" 258)
   nil )
  (!pair  "binding_cluster"
   (!type already_seen 661)
@@ -35864,7 +35868,7 @@
   nil )
  (!pair  "free_saved_scope"
   (!type already_seen 1989)
-  (!srcfileloc  "cp/name-lookup.cc" 8110)
+  (!srcfileloc  "cp/name-lookup.cc" 8111)
   (!options 
    (!option deletable string  "")
   )
@@ -36023,29 +36027,29 @@
   nil )
  (!pair  "start_cleanup_cnt"
   (!type already_seen 2)
-  (!srcfileloc  "cp/decl.cc" 9402)
+  (!srcfileloc  "cp/decl.cc" 9415)
   nil )
  (!pair  "decomp_type_table"
   (!type already_seen 936)
-  (!srcfileloc  "cp/decl.cc" 8855)
+  (!srcfileloc  "cp/decl.cc" 8868)
   (!options 
    (!option cache string  "")
   )
  )
  (!pair  "typename_htab"
   (!type already_seen 2124)
-  (!srcfileloc  "cp/decl.cc" 4048)
+  (!srcfileloc  "cp/decl.cc" 4061)
   nil )
  (!pair  "local_entities"
   (!type already_seen 83)
-  (!srcfileloc  "cp/decl.cc" 901)
+  (!srcfileloc  "cp/decl.cc" 905)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "incomplete_vars"
   (!type already_seen 2119)
-  (!srcfileloc  "cp/decl.cc" 254)
+  (!srcfileloc  "cp/decl.cc" 255)
   nil )
  (!pair  "debug_type_map"
   (!type already_seen 939)

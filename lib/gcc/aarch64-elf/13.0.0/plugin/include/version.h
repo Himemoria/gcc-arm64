@@ -9,7 +9,7 @@
 BASEVER, DATESTAMP, DEVPHASE, and REVISION are defined by the
 Makefile.  */
 
-#define version_string "13.0.0 20221002 (Stable)"
+#define version_string "13.0.0 20221004 (Stable)"
 #define pkgversion_string "(Roulette GCC) "
 
 /* This is the location of the online document giving instructions for
