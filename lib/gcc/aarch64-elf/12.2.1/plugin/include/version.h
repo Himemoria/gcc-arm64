@@ -9,8 +9,8 @@
 BASEVER, DATESTAMP, DEVPHASE, and REVISION are defined by the
 Makefile.  */
 
-#define version_string "12.2.1 20221007 (Stable)"
-#define pkgversion_string "(Roulette GCC) "
+#define version_string "12.2.1 20221008 (Stable)"
+#define pkgversion_string "(Himemoria GCC) "
 
 /* This is the location of the online document giving instructions for
 reporting bugs.  If you distribute a modified version of GCC,

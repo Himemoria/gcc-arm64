@@ -42,7 +42,7 @@ Introduction
 ************
 
 This brief manual contains documentation for the GNU binary utilities
-(Roulette Binutils) version 2.39.0:
+(Himemoria Binutils) version 2.39.0:
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -6089,35 +6089,35 @@ Binutils Index
 
 Tag Table:
 Node: Top1834
-Node: ar3575
-Node: ar cmdline6909
-Node: ar scripts20225
-Node: nm25911
-Node: objcopy41588
-Node: objdump82436
-Node: ranlib119038
-Node: size120637
-Node: strings124606
-Node: strip130463
-Node: c++filt140305
-Ref: c++filt-Footnote-1146166
-Node: addr2line146272
-Node: windmc152227
-Node: windres155886
-Node: dlltool162456
-Node: def file format175453
-Node: readelf177983
-Node: elfedit197082
-Node: Common Options200508
-Node: Selecting the Target System201542
-Node: Target Selection202470
-Node: Architecture Selection204451
-Node: debuginfod205279
-Node: Reporting Bugs206281
-Node: Bug Criteria207043
-Node: Bug Reporting207596
-Node: GNU Free Documentation License214463
-Node: Binutils Index239623
+Node: ar3576
+Node: ar cmdline6910
+Node: ar scripts20226
+Node: nm25912
+Node: objcopy41589
+Node: objdump82437
+Node: ranlib119039
+Node: size120638
+Node: strings124607
+Node: strip130464
+Node: c++filt140306
+Ref: c++filt-Footnote-1146167
+Node: addr2line146273
+Node: windmc152228
+Node: windres155887
+Node: dlltool162457
+Node: def file format175454
+Node: readelf177984
+Node: elfedit197083
+Node: Common Options200509
+Node: Selecting the Target System201543
+Node: Target Selection202471
+Node: Architecture Selection204452
+Node: debuginfod205280
+Node: Reporting Bugs206282
+Node: Bug Criteria207044
+Node: Bug Reporting207597
+Node: GNU Free Documentation License214464
+Node: Binutils Index239624
 
 End Tag Table
 
